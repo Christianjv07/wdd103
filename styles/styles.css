@@ -8,7 +8,26 @@
 
 }
 
+main {
 
+    max-width: 800px;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(0, 0, 0/ 0.2);
+    padding: 1rem;
+    background-color: bisque;
+    color: blueviolet;
+    text-align: center;
+}
+
+aside img {
+
+    width: 200px;
+    height: auto;
+}
 
 nav {
     background-color: darkblue;
@@ -25,7 +44,7 @@ h1 {
     color: var(--h1-color);
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: var(--border);
@@ -33,5 +52,12 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0;
+}
+
+footer {
+
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
 }
