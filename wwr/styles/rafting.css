@@ -119,12 +119,16 @@ footer .social-media a img {
 }
 
 
-.adventures {
+.adventures h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.figures-container {
     display: flex;
     justify-content: space-between;
     gap: 1rem;
     flex-wrap: nowrap;
-    padding: 20px;
 }
 
 .adventures figure {
