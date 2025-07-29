@@ -118,18 +118,12 @@ footer .social-media a img {
     text-align: center;
 }
 
-.adventures {
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-    flex-wrap: wrap;
-}
 
 .adventures {
     display: flex;
     justify-content: space-between;
     gap: 1rem;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .adventures figure {
