@@ -126,11 +126,10 @@ footer .social-media a img {
 }
 
 .adventures {
-
     display: flex;
-    flex: 1 1 1 150px;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .adventures figure {
