@@ -7,6 +7,12 @@
     --body-font: "Special Gothic Expanded One", sans-serif;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
@@ -19,16 +25,22 @@ header {
 
 }
 
-nav {
-
-    display: flex;
-
+header img {
+    width: 100%;
+    height: auto;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5rem;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
 
 body {
