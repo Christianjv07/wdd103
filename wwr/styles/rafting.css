@@ -1,6 +1,6 @@
 :root {
     --primary-color: #1E64B0;
-    --secundary-color: #042C57;
+    --secondary-color: #042C57;
     --accent1-color: #0F3A67;
     --accent2-color: #88BBF2;
     --heading-font: "Special Gothic Expanded One", sans-serif;
@@ -91,5 +91,6 @@ h1 {
 
     float: right;
     width: 125px;
-    box-shadow: #1E64B0;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
 }
