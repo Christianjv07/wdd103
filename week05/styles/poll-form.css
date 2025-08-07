@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    background-color: beige;
+    color: black;
+}
+
+header {
+    margin: 0 auto;
+    width: 650;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5rem;
+    background-color: beige;
+    color: black;
+    text-align: center;
+}
+
+form {
+    width: auto;
+}
